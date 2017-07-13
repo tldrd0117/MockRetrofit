@@ -1,17 +1,10 @@
 package com.sungjae.mockretrofit;
 
-import com.sungjae.mockretrofit.webservice.Hello;
 import com.sungjae.mockretrofit.webservice.RetrofitService;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.List;
-
-import io.reactivex.Observer;
-import io.reactivex.annotations.NonNull;
-import io.reactivex.disposables.Disposable;
-import io.reactivex.functions.Consumer;
 import io.reactivex.observers.TestObserver;
 import retrofit2.HttpException;
 import retrofit2.Retrofit;
